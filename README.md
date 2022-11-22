@@ -14,7 +14,7 @@ En esta práctica se ha llevado a cabo un proceso de web scraping para obtener i
 
 - **[scraper.py](https://github.com/jmguerreroca/WebScraping/blob/main/source/scraper.py)** es el ejecutable principal del código y en el que se encuentran los métodos necesarios para llevar a cabo nuestro web scraping de manera correcta y eficiente.
 
-- **[Web scraping](https://github.com/jmguerreroca/WebScraping/blob/main/memoria.pdf)** será el PDF donde se den las respuestas a las cuestiones planteadas en la práctica y se explique en profundidad la motivación y funcionamiento del proyecto.
+- **[memoria.pdf](https://github.com/jmguerreroca/WebScraping/blob/main/memoria.pdf)** será el PDF donde se den las respuestas a las cuestiones planteadas en la práctica y se explique en profundidad la motivación y funcionamiento del proyecto.
 
 - **[historical_spanish_PhD_computer_scientist](https://doi.org/10.5281/zenodo.7346828)** será nuestro dataset de ejemplo con los valores de salida por defecto. Haciendo referencia a aquellos matemáticos que obtuvieron su doctorado especializándose en ciencias de la computación en una universidad española.
 

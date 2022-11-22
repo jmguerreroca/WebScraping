@@ -1,6 +1,6 @@
 # Práctica 1: WebScraping
 
-## Descripción
+## Descripción:
 
 En esta práctica se ha llevado a cabo un proceso de web scraping para obtener información valosa de la página web de [doctorados](https://genealogy.math.ndsu.nodak.edu/). En dicha página se puede encontrar información relativa a todas las tesis doctorales realizadas a lo largo de la historia y, más en concreto, a todos los doctores que las realizaron y el grado de relación profesional entre ellos.
 
@@ -8,17 +8,17 @@ En esta práctica se ha llevado a cabo un proceso de web scraping para obtener i
 
 - Juan María Guerrero Carrasco
 
-## Ficheros
+## Ficheros:
 
-- **[chromedriver.exe](https://github.com/jmguerreroca/WebScraping/blob/master/chromedriver.exe)** se ha obtenido de [chromedriver](https://chromedriver.chromium.org/downloads). A partir de este podemos definir la configuración necesaria que nos otorga permisos para navegar por la web. Conviene señalar que cada versión de Chrome necesita de una versión específica y adaptada a dicha versión, por lo que conviene comprobar esto antes de continuar. Este fichero en concreto será el ChromeDriver 107.0.5304.62.
+- **[chromedriver.exe](https://github.com/jmguerreroca/WebScraping/blob/main/source/chromedriver.exe)** se ha obtenido de [chromedriver](https://chromedriver.chromium.org/downloads). A partir de este podemos definir la configuración necesaria que nos otorga permisos para navegar por la web. Conviene señalar que cada versión de Chrome necesita de una versión específica y adaptada a dicha versión, por lo que conviene comprobar esto antes de continuar. Este fichero en concreto será el ChromeDriver 107.0.5304.62.
 
-- **[scraper.py](https://github.com/jmguerreroca/WebScraping/blob/master/webscraper.py)** es el ejecutable principal del código y en el que se encuentran los métodos necesarios para llevar a cabo nuestro web scraping de manera correcta y eficiente.
+- **[scraper.py](https://github.com/jmguerreroca/WebScraping/blob/main/source/scraper.py)** es el ejecutable principal del código y en el que se encuentran los métodos necesarios para llevar a cabo nuestro web scraping de manera correcta y eficiente.
 
-- **[Web scraping](https://github.com/jmguerreroca/WebScraping/blob/master/Web%20scraping%20answers.pdf)** será el PDF donde se den res.
+- **[Web scraping](https://github.com/jmguerreroca/WebScraping/blob/main/Web%20scraping.pdf)** será el PDF donde se den las respuestas a las cuestiones planteadas en la práctica y se explique en profundidad la motivación y funcionamiento del proyecto.
 
 - **[historical_spanish_PhD_computer_scientist](https://doi.org/10.5281/zenodo.7346828)** será nuestro dataset de ejemplo con los valores de salida por defecto. Haciendo referencia a aquellos matemáticos que obtuvieron su doctorado especializándose en ciencias de la computación en una universidad española.
 
-## Uso del script
+## Uso del ejecutable:
 
 En primer lugar, antes de llevar a cabo la ejecución principal conviene revisar que contemos con las versiones adecuadas del código para la ejecución. Aparte de comprobar que contamos con la versión del chromedriver que se adapta a nuestro navegador, podremos instalar los requerimientos de código mediante el comando:
 
@@ -54,10 +54,10 @@ Otro dato reseñable es que como se mencionaba, no se necesitan obligatoriamente
 Por ello ejecutar los siguientes dos comandos será equivalente:
 
 ```bash
-python3 webscraper.py --country 'spain' --subject '68'
+python3 scraper.py --country 'spain' --subject '68'
 ```
 ```bash
-python3 webscraper.py
+python3 scraper.py
 ```
 
 El país no discrimina entre minúsculas y mayúsculas. El año deberá estar escrito con 4 cifras numéricas y el código del tema habrá de corresponderse con la siguiente lista:

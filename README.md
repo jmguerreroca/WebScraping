@@ -2,7 +2,7 @@
 
 ## Descripción:
 
-En esta práctica se ha llevado a cabo un proceso de web scraping para obtener información valosa de la página web de [doctorados](https://genealogy.math.ndsu.nodak.edu/). En dicha página se puede encontrar información relativa a todas las tesis doctorales realizadas a lo largo de la historia y, más en concreto, a todos los doctores que las realizaron y el grado de relación profesional entre ellos.
+En esta práctica se ha llevado a cabo un proceso de web scraping para obtener información valiosa de la página web de [doctorados](https://genealogy.math.ndsu.nodak.edu/). En dicha página se puede encontrar información relativa a todas las tesis doctorales realizadas a lo largo de la historia y, más en concreto, a todos los doctores que las realizaron y el grado de relación profesional entre ellos.
 
 ## Realizada en solitario por:
 

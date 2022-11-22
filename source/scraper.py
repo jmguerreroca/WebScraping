@@ -236,7 +236,7 @@ if __name__ == "__main__":
     if args.subject is not None or args.year is not None or args.country is not None:
         main(args.subject, args.year, args.country)
     else:
-        print('ERROR: At least one parameter should be provided to perform our web scraping')
+        print('WARNING: At least one parameter should be provided to perform our web scraping')
         print("Let's run with default options: --country spain --subjet 68 (computer science)")
         main('68', None, 'spain')
 
